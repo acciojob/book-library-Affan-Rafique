@@ -10,8 +10,14 @@
       margin: 0;
       padding: 40px 0;
     }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #222;
+    }
     .book-library {
-      background-color: #ffffff;
+      background-color: #fff;
       max-width: 900px;
       margin: 0 auto;
       padding: 32px 40px;
@@ -38,20 +44,20 @@
       margin-bottom: 16px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.10);
     }
-    .book-title {
+    .book h2 {
       font-size: 1.15rem;
       font-weight: bold;
       margin-bottom: 6px;
       text-align: center;
-      color: #222222;
+      color: #222;
     }
-    .book-author {
+    .book p {
       font-size: 0.98rem;
       color: #777777;
       margin-bottom: 12px;
       text-align: center;
     }
-    .price-block {
+    .book .price-block {
       background: #2ecc71;
       color: #fff;
       padding: 6px 18px;
@@ -63,25 +69,27 @@
   </style>
 </head>
 <body>
+  <h1>Book Library</h1>
   <div class="book-library">
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
-      <div class="book-title">Spy in the Amber</div>
-      <div class="book-author">Manohar Malgonkar</div>
+      <h2>Spy in the Amber</h2>
+      <p>Manohar Malgonkar</p>
       <div class="price-block">₹299</div>
     </div>
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
-      <div class="book-title">Sacred Games</div>
-      <div class="book-author">Vikram Chandra</div>
+      <h2>Sacred Games</h2>
+      <p>Vikram Chandra</p>
       <div class="price-block">₹499</div>
     </div>
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
-      <div class="book-title">Byomkesh Bakshi</div>
-      <div class="book-author">Sharadindu Bandyopadhyay</div>
+      <h2>Byomkesh Bakshi</h2>
+      <p>Sharadindu Bandyopadhyay</p>
       <div class="price-block">₹259</div>
     </div>
   </div>
 </body>
 </html>
+
